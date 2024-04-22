@@ -1,0 +1,49 @@
+.left {
+    width: 80%;
+    border: 2px solid black;
+}
+.left-change{
+    width: 80%;
+    border: 2px solid black;
+}
+
+.bookbox {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 15rem;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.bookbox img {
+    border-radius: .8rem;
+    
+}
+
+.bookbox a {
+    text-decoration: none;
+
+}
+
+.bookbox h1 {
+    color: black;
+}
+
+.boxcar {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.left .tablecar{
+    display: none;
+}
+
+.left-change .boxcar {
+    display: none;
+}

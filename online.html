@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sttc/stylfldr/styleon.css">
+    <script src="https://kit.fontawesome.com/c75057c9b4.js" crossorigin="anonymous"></script>
+    <title>E-Books</title>
+</head>
+
+<body>
+    <div class="alls">
+        <div id="lefts" class="left">
+            <a href="index.html">return</a>
+            <div class="search">
+                <a href="javascript:void(0)" onclick="swaptable()" class="spbtn">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                </a>
+                <br>
+                <form method="post">
+                    <input type="text">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <br>
+            <div class="boxcar">
+                <div class="bookbox">
+                    <a href="sttc/mock.txt" target="_blank">
+                        <img src="/sttc/img/4824032.jpg" alt="title" style="width: 14.7rem;">
+                        <h1>Title</h1>
+                    </a>
+                </div>
+                <div class="bookbox">
+                    <a href="sttc/mock.txt" target="_blank">
+                        <img src="/sttc/img/4824032.jpg" alt="title" style="width: 14.7rem;">
+                        <h1>Title</h1>
+                    </a>
+                </div>
+                <div class="bookbox">
+                    <a href="sttc/mock.txt" target="_blank">
+                        <img src="/sttc/img/4824032.jpg" alt="title" style="width: 14.7rem;">
+                        <h1>Title</h1>
+                    </a>
+                </div>
+                <div class="bookbox">
+                    <a href="sttc/mock.txt" target="_blank">
+                        <img src="/sttc/img/4824032.jpg" alt="title" style="width: 14.7rem;">
+                        <h1>Title</h1>
+                    </a>
+                </div>
+                <div class="bookbox">
+                    <a href="sttc/mock.txt" target="_blank">
+                        <img src="/sttc/img/4824032.jpg" alt="title" style="width: 14.7rem;">
+                        <h1>Title</h1>
+                    </a>
+                </div>
+                <div class="bookbox">
+                    <a href="sttc/mock.txt" target="_blank">
+                        <img src="/sttc/img/4824032.jpg" alt="title" style="width: 14.7rem;">
+                        <h1>Title</h1>
+                    </a>
+                </div>
+                <div class="bookbox">
+                    <a href="sttc/mock.txt" target="_blank">
+                        <img src="/sttc/img/4824032.jpg" alt="title" style="width: 14.7rem;">
+                        <h1>Title</h1>
+                    </a>
+                </div>
+                <div class="bookbox">
+                    <a href="sttc/mock.txt" target="_blank">
+                        <img src="/sttc/img/4824032.jpg" alt="title" style="width: 14.7rem;">
+                        <h1>Title</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="tablecar">
+                <table border="1" style="width: 60rem;">
+                    <tr>
+        
+                        <th>Name</th>
+                        <th>date added</th>
+        
+                    </tr>
+                    <tr>
+                        <td>mock.txt</td>
+                        <td>12/8/2024</td>
+                        <td><a href="sttc/mock.txt" target="_blank">download</a></td>
+                    </tr>
+                    <tr>
+                        <td>mock.txt</td>
+                        <td>12/8/2024</td>
+                        <td><a href="sttc/mock.txt" target="_blank">download</a></td>
+                    </tr>
+                    <tr>
+                        <td>mock.txt</td>
+                        <td>12/8/2024</td>
+                        <td><a href="sttc/mock.txt" target="_blank"></a>download</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script>
+    function swaptable() {
+        var x = document.getElementById("lefts");
+        if (x.className === "left") {
+            x.className += "-change";
+        } else {
+            x.className = "left";
+        }
+    }
+</script>
